@@ -13,9 +13,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{A8DD5A9D-F1FE-4C6E-A718-2C2F8709CCD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{233BD190-4C39-44C8-9C74-4E5EEECA3E54}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{233BD190-4C39-44C8-9C74-4E5EEECA3E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233BD190-4C39-44C8-9C74-4E5EEECA3E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233BD190-4C39-44C8-9C74-4E5EEECA3E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233BD190-4C39-44C8-9C74-4E5EEECA3E54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{233BD190-4C39-44C8-9C74-4E5EEECA3E54} = {38532337-A8DC-41B3-A90F-8860118FC372}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D530CAD1-568B-46F6-8209-E53657E3D9A1}
