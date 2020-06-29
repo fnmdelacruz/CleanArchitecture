@@ -14,6 +14,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using CleanArchitecture.Infra.Data.Context;
 using CleanArchitecture.Infra.IoC;
+using MediatR;
+using CleanArchitecture.MVC.Configurations;
 
 namespace MVC
 {
@@ -42,6 +44,8 @@ namespace MVC
             services.AddControllersWithViews();
             services.AddRazorPages();
 
+            services.AddMediatR(typeof(Startup));
+            services.RegisterAutoMapper();
             RegisterServices(services);
         }
 
